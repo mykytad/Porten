@@ -255,3 +255,38 @@ h2:after{
 	color:#000;
 	background: #fff;
 }
+.income{
+	background: #000;
+	padding-top: 120px;
+	padding-bottom: 150px;
+}
+.income_heading{
+	margin-bottom: 120px;
+}
+.income_link{
+	text-decoration: none;
+}
+.income_link:hover{
+	text-decoration: none;
+}
+.product_img_wrap{
+	padding:55px 23px;
+	background: #222527;
+	margin-bottom: 25px;
+}
+.product_description{
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 40px;
+}
+.price{
+	margin-top: 10px;
+	font-weight: bold;
+}
+.brand{
+	background: #0F0F0F;
+	padding-bottom: 80px;
+}
+.brand_heading{
+	padding-top: 60px;
+	margin-bottom: 80px;
+}
