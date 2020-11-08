@@ -315,8 +315,37 @@ h2:after{
 	background: #0F0F0F;
 	margin-left: 10px;
 	margin-top: 10px;
-
 }
 .mailing p{
 	font-size: 14px;
+}
+.mailing_form input{
+	font-size: 14px;
+	background: #fff;
+	opacity: 40%;
+	padding-left: 16px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-left: -20px;
+	width: 200px;
+	border:none;
+}
+.form_btn{
+	font-size: 14px;
+	padding: 10px 25px;
+	color: #fff;
+	background: #0F0F0F;
+}
+.footer{
+	background: #0F0F0F;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	font-size: 12px;
+	color: #D0D0D0;
+}
+.footer a{
+	color:#D0D0D0;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
 }
