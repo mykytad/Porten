@@ -336,6 +336,10 @@ h2:after{
 	color: #fff;
 	background: #0F0F0F;
 }
+.form_btn:hover{
+	color: #fff;
+	text-decoration: none;
+}
 .footer{
 	background: #0F0F0F;
 	padding-top: 17px;
