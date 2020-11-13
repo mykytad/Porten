@@ -204,11 +204,17 @@ h2:after{
 	/*height: 96px;*/
 	color:#fff;
 	text-align: center;
-	text-transform: uppercase;
 }
 .season{
 	background: #000;
 	flex:1.2;
+}
+.season h2{
+	margin-top: 93px;
+	margin-bottom:100px;
+}
+.season .owl-carousel .item>a:hover{
+	text-decoration: none;
 }
 .catologist{
 	background: url(../img/new_collection.png)no-repeat center top /cover;
