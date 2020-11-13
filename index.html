@@ -11,8 +11,10 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script src="js/owl.carousel.min.js"></script>
 	<!-- css -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
 </head>
 <body>
 	<header class="header">
@@ -98,6 +100,53 @@
 			<h2>
 				СЕЗОН 2020/21
 			</h2>
+			<div class="owl-carousel">
+			    <div class="item">
+			    	<a href="#">
+				    	<div class="product_img_wrap">
+							<img src="img/watch.png" alt="watch" class="product_img">
+						</div>
+						<div class="product_description text-white">
+							<h4 class="price_heading">
+								Louis XVI ATHOS
+							</h4>
+							<span class="price">
+								165 000 руб.
+							</span>
+						</div>
+					</a>
+			    </div>
+			    <div class="item">
+			    	<a href="#">
+				    	<div class="product_img_wrap">
+							<img src="img/watch.png" alt="watch" class="product_img">
+						</div>
+						<div class="product_description text-white">
+							<h4 class="price_heading">
+								Louis XVI ATHOS
+							</h4>
+							<span class="price">
+								165 000 руб.
+							</span>
+						</div>
+					</a>
+			    </div>
+			    <div class="item">
+			    	<a href="#">
+				    	<div class="product_img_wrap">
+							<img src="img/watch.png" alt="watch" class="product_img">
+						</div>
+						<div class="product_description text-white">
+							<h4 class="price_heading">
+								Louis XVI ATHOS
+							</h4>
+							<span class="price">
+								165 000 руб.
+							</span>
+						</div>
+					</a>
+			    </div>
+			</div>
 		</div>
 		<div class="catologist pt-3 px-3 pt-md-5 px-md-5 text-center text-white">
 			<h2 class="catologist_heading">
@@ -332,5 +381,25 @@
 			</div>
 		</div>
 	</footer>
+	<script>
+		$('.owl-carousel').owlCarousel({
+    		loop:false,
+    		margin:50,
+    		nav:false,
+    		dots:false,
+    		autoWidth:true,
+    		responsive:{
+		        0:{
+		            items:1
+		        },
+		        600:{
+		            items:2
+		        },
+		        1000:{
+		            items:3
+		        }
+		    }
+		})
+	</script>	
 </body>
 </html>
